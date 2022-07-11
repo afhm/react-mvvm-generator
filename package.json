@@ -1,5 +1,5 @@
 {
-  "name": "mvvm-react-generator",
+  "name": "react-mvvm-generator",
   "version": "1.0.0",
   "description": "",
   "main": "bin/index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mvvm-react": "./bin/index.js"
+    "react-mvvm": "./bin/index.js"
   },
   "keywords": [],
   "author": "Sushin Pv",
