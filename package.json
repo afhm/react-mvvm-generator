@@ -1,17 +1,18 @@
 {
   "name": "react-mvvm-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "react-mvvm": "./bin/index.js"
+    "react-mvvm": "./bin/index.js",
+    "rmv": "./bin/index.js"
   },
   "keywords": [],
   "author": "Sushin Pv",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "yargs": "^17.5.1"
   }

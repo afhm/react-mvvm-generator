@@ -4,7 +4,8 @@ This package is used to create MVVM components for React and React Native,
 
 ## Usage 
 
-Usage: --dir <dirname> --c <name>
+Usage: react-mvvm --dir <dirname> --c <name>
+Usage: rmv --dir <dirname> --c <name>
 
 Options:
       --help            Show help                                      [boolean]
