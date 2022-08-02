@@ -2,17 +2,17 @@
 // Import the module and reference it with the alias vscode in your code below
 const {TextEncoder} = require('util')
 const vscode = require('vscode')
-const functionComponent = require('./templates/functionComponent')
-const feComponent = require('./templates/feComponent')
+const functionComponent = require('./templates/functions/functionComponent')
+const feComponent = require('./templates/functions/feComponent')
 
 const indexTemplate = require('./templates/index-template')
 const testController = require('./templates/test-controller')
 const testView = require('./templates/test-view')
-const viewFc = require('./templates/view-fc')
-const viewFec = require('./templates/view-controller-fec')
+const viewFc = require('./templates/functions/view-fc')
+const viewFec = require('./templates/functions/view-controller-fec')
 
-const viewControllerFc = require('./templates/view-controller-fc')
-const viewControllerFec = require('./templates/view-controller-fec')
+const viewControllerFc = require('./templates/functions/view-controller-fc')
+const viewControllerFec = require('./templates/functions/view-controller-fec')
 
 /**
  * Function to create a file
