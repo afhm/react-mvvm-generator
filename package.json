@@ -15,14 +15,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:react-mvvm-generator.createComponent"
+    "onCommand:react-mvvm-generator.createFComponent",
+    "onCommand:react-mvvm-generator.createFEComponent"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "react-mvvm-generator.createComponent",
-        "title": "RMV: Component"
+        "command": "react-mvvm-generator.createFComponent",
+        "title": "RMV: FComponent"
+      },
+      {
+        "command": "react-mvvm-generator.createFEComponent",
+        "title": "RMV: FEComponent"
       }
     ]
   },
