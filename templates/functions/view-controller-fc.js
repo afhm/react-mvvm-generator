@@ -6,10 +6,10 @@ module.exports =
  * @param props
  * @returns
  */
-function ${componentName}({prop1,prop2}:I${componentName}ViewControllerProps) => {
-    const { } = use${componentName}ViewController({});
-  
-    return <${componentName}ViewController />;
+function ${componentName}({prop1,prop2}:I${componentName}ViewControllerProps) {
+
 };
+
+
 
 export default use${componentName}ViewController;`

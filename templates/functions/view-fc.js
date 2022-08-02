@@ -5,10 +5,10 @@ module.exports = componentName => `interface I${componentName}ViewProps {}
  * @param props
  * @returns
  */
-function ${componentName}({prop1,prop2}:I${componentName}ViewProps) => {
-  const { } = use${componentName}ViewController({});
+function ${componentName}View({prop1,prop2}:I${componentName}ViewProps) {
 
-  return <${componentName}View />;
+  return <div></div>
+  
 };
   
 export default ${componentName}View;`
